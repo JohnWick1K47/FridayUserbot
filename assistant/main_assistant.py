@@ -39,7 +39,7 @@ async def start(client, message):
     bot_username = starkbot.username
     firstname = message.from_user.first_name
     user_id = message.from_user.id
-    starttext = f"`Hello, {firstname} ! Nice To Meet You, Well I Am ✪𝐇𝐊𝐅𝐥𝐢𝐱 𝐀𝐈, An Powerfull Assistant Bot To Talk And Do Many Things For My Master!`. \n\nPowered By [HKFlix](t.me/HKFlixOfficialBot)"
+    starttext = f"`Hello, {firstname} ! Nice To Meet You, Well I Am ✪𝐇𝐊𝐅𝐥𝐢𝐱 𝐀𝐈, An Powerfull Assistant AI To Talk And Do Many Things For My Master!`. \n\nPowered By [HKFlix](t.me/HKFlixHD)"
     mypic = Config.ASSISTANT_START_PIC
     if user_id not in all_user_s:
         await client.send_photo(
