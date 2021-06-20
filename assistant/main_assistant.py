@@ -47,7 +47,7 @@ async def start(client, message):
             mypic,
             starttext,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("Help Me ❓", url="t.me/HKFlixOfficialBot")]]
+                [[InlineKeyboardButton("Visit 🌐𝐇𝐊𝐅𝐥𝐢𝐱", url="hkflix.tk")]]
             ),
         )
         kok = await check_user(user_id)
