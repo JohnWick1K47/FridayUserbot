@@ -49,8 +49,8 @@
     },
     "UPSTREAM_REPO": {
       "description": "Your Upstream URL HERE. If You're Beginner, Don't Change This.",
-      "value": "https://github.com/DevsExpo/FridayUserBot",
-      "required": false
+      "value": "https://github.com/JohnWick1K47/FridayUserbot",
+      "required": "True" 
     },
     "BOT_TOKEN": {
       "description": "Your Bot Token Obtained From @BotFather. This is Not Important",
